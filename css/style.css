@@ -1,0 +1,26 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* DEBUG */
+.debug-1{
+    border: 1px solid black;
+}
+.debug-2{
+    border: 1px solid red;
+}
+.debug-3{
+    border: 1px solid lime;
+}
+
+/* UTILITIES */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+}
