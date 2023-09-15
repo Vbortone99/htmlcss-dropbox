@@ -5,6 +5,25 @@
     box-sizing: border-box;
 }
 
+/* COLORS PALETTE */
+:root{
+    --color-primary:#ffffff;
+    --color-bg-skyblue:#b4d0e7;
+    --color-bg-footer:#000000;
+    --color-buttons:#0061ff;
+    --color-last-section-text:#61082b;
+    --color-box1-left:#a2d39b;
+    --color-box2-left:#61082b;
+    --color-box3-left:#0093ce;
+    --color-box4-left:#ff1c1c;
+    --color-box1-right:#d5001f;
+    --color-box2-right:#b4d0e7;
+    --color-box3-right:#0d2481;
+    --color-box4-right:#ffd830;
+
+
+}
+
 /* DEBUG */
 .debug-1{
     border: 1px solid black;
