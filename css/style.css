@@ -46,11 +46,20 @@
     justify-content: space-between;
     align-items: center;
 }
+
 /* HEADER */
+header{
+    background-color: var(--color-bg-skyblue);
+    height: 400px;
+}
+
+/* NAVBAR */
 nav{
     position: fixed;
     z-index: 1000;
     width: 100%;
+    background-color: var(--color-primary);
+    padding: 10px 10px;
 }
 nav a{
     color: var(--color-bg-footer);
