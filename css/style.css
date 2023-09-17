@@ -54,6 +54,10 @@ body{
     display: flex;
     justify-content: center;
 }
+.d-flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
 .flex-s-between{
     display: flex;
     justify-content: space-between;
@@ -159,21 +163,11 @@ hr{
 .main-container-content{
     width: calc(100%/3);
     border:1px solid var(--color-bg-footer) ;
-    padding: 10px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
-/* .content-1 span{
-    max-width: 70%;
-}
-.content-2 span{
-    max-width: 70%;
-}
-.content-3 span{
-    max-width: 80%;
-} */
 .plan{
     border-bottom: 1px solid black;
     text-align: center;
@@ -187,4 +181,10 @@ hr{
 }
 .left *{
     padding: 10px
+}
+.left{
+    width: 70%;
+}
+.right{
+    width: 30%;
 }
