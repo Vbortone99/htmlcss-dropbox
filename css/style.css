@@ -234,6 +234,8 @@ hr{
 }
 .partner-logo{
     width: calc(100%/2);
+    height: calc(100%/2);
+    display
 }
 .partner-logo img{
     width: 100%
@@ -241,4 +243,28 @@ hr{
 .right-box{
     display: flex;
     flex-flow: row wrap;
+}
+#logo-1{
+    background-color: var(--color-box1-left);
+}
+#logo-2{
+    background-color: var(--color-box2-left);
+}
+#logo-3{
+background-color: var(--color-box3-left);
+}
+#logo-4{
+    background-color: var(--color-box4-left);
+}
+#logo-5{
+background-color: var(--color-box1-right);
+}
+#logo-6{
+    background-color: var(--color-box2-right);
+}
+#logo-7{
+    background-color: var(--color-box3-right);
+}
+#logo-8{
+    background-color: var(--color-box4-right);
 }
