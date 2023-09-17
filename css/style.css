@@ -203,3 +203,11 @@ hr{
     color: black;
     padding: 4px 10px;
 }
+
+/* CARDS */
+.card-content{
+    width: calc(100%/3);
+}
+.card-img img{
+    width: 100%;
+}
