@@ -224,6 +224,9 @@ hr{
 }
 
 /* PARTNERS */
+.partnership{
+    padding-bottom: 100px;
+}
 .info-partners{
     color: var(--color-buttons);
     text-decoration: underline;
@@ -232,9 +235,6 @@ hr{
 .left-box{
     display: flex;
     flex-flow: row wrap;
-}
-.mid-box{
-
 }
 .right-box{
     display: flex;
@@ -287,4 +287,30 @@ background-color: var(--color-box1-right);
 }
 #logo-8{
     background-color: var(--color-box4-right);
+}
+.banner{
+    background-color: var(--color-bg-skyblue);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+.banner h3{
+    color: var(--color-last-section-text);
+}
+.banner-button{
+    background-color: var(--color-primary);
+    color: black;
+    padding: 2px 6px;
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-block-end: 1px solid black;
+    border-block-start: 1px solid black;
+    padding: 10px 0px;
+}
+.questions h2{
+    padding-bottom: 30px;
 }
