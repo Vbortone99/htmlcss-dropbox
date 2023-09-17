@@ -130,3 +130,39 @@ span{
     position: relative;
     
 }
+
+/* MAIN */
+main{
+    padding:80px 150px;
+}
+.radio{
+    padding: 10px 0px;
+}
+.alternate-plan{
+    color: var(--color-box3-right);
+    text-decoration: underline;
+}
+hr{
+    width: 30px;
+}
+.main-container{
+    display: flex;
+    max-width: 100%;
+    border: 1px solid var(--color-bg-footer);
+}
+.main-container-content{
+    width: calc(100%/3);
+    border:1px solid var(--color-bg-footer) ;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-container-content span{
+    max-width: 70%;
+}
+.plan{
+    border-bottom: 1px solid black;
+    text-align: center;
+}
