@@ -205,9 +205,19 @@ hr{
 }
 
 /* CARDS */
+.dropbox-business{
+    padding: 100px 0px;
+}
 .card-content{
     width: calc(100%/3);
 }
 .card-img img{
     width: 100%;
+}
+.card-text *{
+    padding: 20px 0px;
+}
+.cards-container{
+    display: flex;
+    flex-flow: row wrap;
 }
