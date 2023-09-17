@@ -159,9 +159,15 @@ hr{
     justify-content: space-between;
 }
 
-.main-container-content span{
+/* .content-1 span{
     max-width: 70%;
 }
+.content-2 span{
+    max-width: 70%;
+}
+.content-3 span{
+    max-width: 80%;
+} */
 .plan{
     border-bottom: 1px solid black;
     text-align: center;
