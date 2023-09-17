@@ -59,6 +59,11 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 a{
     text-decoration: none;
 }
@@ -101,15 +106,11 @@ h1{
     text-align: center;
 }
 .heading-left p{
-    padding-bottom: 20px;
     width: 350px;
 }
-.heading .prova,span{
-    padding: 15px 0px;
+.heading-right img{
+    transform: translateY(60px);
 }
-/* .heading-right img{
-    width:100% ;
-} */
 span{
     display:block;
 }
