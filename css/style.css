@@ -188,3 +188,18 @@ hr{
 .right{
     width: 30%;
 }
+#partner-img{
+    width: 100%;
+}
+.partner-text{
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 70%;
+}
+.partner-button{
+    border: 1px solid black;
+    color: black;
+    padding: 4px 10px;
+}
