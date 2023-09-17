@@ -149,7 +149,7 @@ main{
     padding: 10px 0px;
 }
 .alternate-plan{
-    color: var(--color-box3-right);
+    color: var(--color-buttons);
     text-decoration: underline;
 }
 hr{
@@ -218,6 +218,27 @@ hr{
     padding: 20px 0px;
 }
 .cards-container{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* PARTNERS */
+.info-partners{
+    color: var(--color-buttons);
+    text-decoration: underline;
+    padding: 20px 0px;
+}
+.left-box{
+    display: flex;
+    flex-flow: row wrap;
+}
+.partner-logo{
+    width: calc(100%/2);
+}
+.partner-logo img{
+    width: 100%
+}
+.right-box{
     display: flex;
     flex-flow: row wrap;
 }
