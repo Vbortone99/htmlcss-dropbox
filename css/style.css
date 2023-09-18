@@ -91,7 +91,11 @@ nav{
     padding: 10px 10px;
     top: 0;
 }
-nav a{
+.navbar-left a{
+    color: var(--color-bg-footer);
+    text-decoration: none;
+}
+.navbar-right a{
     color: var(--color-bg-footer);
     text-decoration: none;
 }
