@@ -56,6 +56,10 @@ body{
 .d-flex{
     display: flex;
 }
+.d-flex-align-start{
+    display: flex;
+    align-items:flex-start;
+}
 .d-flex-center{
     display: flex;
     justify-content: center;
@@ -68,6 +72,11 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.flex-s-between-start{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 .flex-column{
     display: flex;
@@ -136,6 +145,13 @@ nav ul{
     box-shadow: 0px 0px 0px 1px var(--color-buttons);
 }
 
+/* HIDDEN MENU */
+.hidden-menu{
+    display: none;
+}
+nav li:hover .hidden-menu{
+    display: block;
+}
 /* HEADER */
 header{
     background-color: var(--color-bg-skyblue);
