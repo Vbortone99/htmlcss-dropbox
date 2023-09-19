@@ -48,6 +48,11 @@ body{
     min-width: 500px;
     margin: 0 auto;
 }
+.container-small{
+    max-width: 1000px;
+    min-width: 500px;
+    margin: 0 auto;
+}
 .d-flex{
     display: flex;
 }
@@ -115,6 +120,9 @@ nav ul{
     background-color: var(--color-buttons);
     color: var(--color-primary);
 }
+#nav-button:hover{
+    box-shadow: 0px 0px 0px 1px var(--color-buttons);
+}
 
 /* HEADER */
 header{
@@ -144,6 +152,10 @@ span{
     background-color: var(--color-buttons);
     padding: 1px 6px;
     color: var(--color-primary);
+}
+.button:hover{
+    box-shadow: 0px 0px 0px 1px #888888;
+    border: 1px solid black;
 }
 .heading-right{
     max-width: 50%;
@@ -180,12 +192,15 @@ hr{
     display: flex;
     flex-direction: column;
 }
+.main-container-content span{
+    text-indent: -10px;
+}
+.main-container-content div{
+    width: 120%;
+}
 .plan{
     border-bottom: 1px solid black;
     text-align: center;
-}
-.main-container-content span{
-    text-indent: -10px;
 }
 .enterprise{
     margin: 50px 0px;
@@ -203,6 +218,12 @@ hr{
 .right{
     width: 30%;
 }
+.right>div{
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+}
+
 #partner-img{
     width: 100%;
 }
@@ -217,6 +238,9 @@ hr{
     border: 1px solid black;
     color: black;
     padding: 4px 10px;
+}
+.partner-button:hover{
+    box-shadow: 0px 0px 0px 1px #888888;
 }
 
 /* CARDS */
@@ -240,6 +264,15 @@ hr{
 /* PARTNERS */
 .partnership{
     padding-bottom: 100px;
+}
+.part-heading{
+    text-align: center;
+}
+.part-heading h2{
+    font-size: 32px;
+}
+.part-heading a{
+    color: blue;
 }
 .info-partners{
     color: var(--color-buttons);
@@ -353,4 +386,7 @@ ul li{
 }
 .wrapper hr{
     margin-top: 10px;
+}
+footer a:hover{
+    text-shadow: 0px 0px 12px;
 }
