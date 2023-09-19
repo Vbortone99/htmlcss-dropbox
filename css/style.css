@@ -90,6 +90,18 @@ a{
 .opacity{
     opacity: 0.5;
 }
+.pd-y20-x10{
+    padding: 20px 10px;
+}
+.content-1 span{
+    padding: 10px;
+}
+.content-2 span{
+    padding: 10px;
+}
+.content-3 span{
+    padding: 10px;
+}
 /* NAVBAR */
 nav{
     position: fixed;
@@ -304,9 +316,9 @@ hr{
 .lead-logo img{
     width: 70%;
 }
-.lead-logo img,p,span{
+/* .lead-logo img,p,span{
     padding: 20px 10px;
-}
+} */
 .lead-logo hr{
     margin-left: 10px;
 }
