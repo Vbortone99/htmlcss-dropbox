@@ -168,7 +168,7 @@ span{
 
 /* MAIN */
 main{
-    padding:80px 150px;
+    padding:80px 0px;
 }
 .radio{
     padding: 10px 0px;
@@ -195,9 +195,9 @@ hr{
 .main-container-content span{
     text-indent: -10px;
 }
-.main-container-content div{
+/* .main-container-content div{
     width: 120%;
-}
+} */
 .plan{
     border-bottom: 1px solid black;
     text-align: center;
