@@ -82,6 +82,9 @@ a{
 .center{
     text-align: center;
 }
+.opacity{
+    opacity: 0.5;
+}
 /* NAVBAR */
 nav{
     position: fixed;
@@ -128,7 +131,8 @@ h1{
     width: 350px;
 }
 .heading-right img{
-    transform: translateY(60px);
+    position: relative;
+    bottom: -70px;
 }
 span{
     display:block;
@@ -171,15 +175,17 @@ hr{
 }
 .main-container-content{
     width: calc(100%/3);
-    border:1px solid var(--color-bg-footer) ;
+    border: 1px solid var(--color-bg-footer);
     padding: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 .plan{
     border-bottom: 1px solid black;
     text-align: center;
+}
+.main-container-content span{
+    text-indent: -10px;
 }
 .enterprise{
     margin: 50px 0px;
